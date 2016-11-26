@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
-if (( $EUID != 0 )); then
+if [[ "$EUID" -ne "0" ]]; then
     echo 'This script must be run as root. Please rerun using sudo.'
     exit 1
 fi
