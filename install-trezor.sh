@@ -11,6 +11,6 @@ apt-get install -y --no-install-recommends \
 torify pip install -U setuptools
 torify pip install trezor==0.6.13
 chmod -R ugo+rX /usr/local/lib/python2.7/dist-packages
-sh -c 'curl -sL https://raw.githubusercontent.com/trezor/trezor-common/master/udev/51-trezor.rules > /lib/udev/rules.d/51-trezor.rules'
+torify curl -sL https://raw.githubusercontent.com/trezor/trezor-common/master/udev/51-trezor.rules > /lib/udev/rules.d/51-trezor.rules
 chmod 644 /lib/udev/rules.d/51-trezor.rules
 
