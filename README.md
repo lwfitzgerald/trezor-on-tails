@@ -50,7 +50,7 @@ torify curl -sL \
 ## Enabling Passphrase encryption
 ### myTREZOR
 ![myTREZOR passphrase encryption enabling](https://raw.githubusercontent.com/lwfitzgerald/trezor-on-tails/master/images/passphrase-mytrezor.png)
-  1. Got to [myTrezor](https://mytrezor.com)
+  1. Go to [myTrezor](https://mytrezor.com)
   2. Click the name of your device and then switch to the "Advanced" tab
   3. Tick the OK box and click "Enable passphrase encryption"
   4. Disconnect and Reconnect your Trezor
