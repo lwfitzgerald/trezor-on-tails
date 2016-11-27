@@ -9,9 +9,13 @@ Tested on Tails 2.7
 **If you have used your Trezor outside of Tails, it is likely any generated addresses have been associated with your IP address**.
 
 For this reason it is recommended to:
-  1. Enable [Passphrase encryption](https://doc.satoshilabs.com/trezor-user/advanced_settings.html) on your Trezor
+  1. Enable [Passphrase encryption](https://github.com/lwfitzgerald/trezor-on-tails#Enable-Passphrase-encryption) on your Trezor
   2. Choose a unique password you will only use for privacy sensitive transactions
   3. Only use this password when you are using your Trezor on Tails.
+
+## Enable Passphrase encryption
+### myTREZOR
+![myTREZOR passphrase encryption enabling](https://raw.githubusercontent.com/lwfitzgerald/trezor-on-tails/master/images/mytrezor.png)
 
 ## Set up
   1. When Tails Greeter appears, choose "Yes" for more options.
