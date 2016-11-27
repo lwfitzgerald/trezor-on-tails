@@ -9,7 +9,7 @@ Tested on Tails 2.7
 **If you have used your Trezor outside of Tails, it is likely any generated addresses have been associated with your IP address**.
 
 For this reason it is recommended to:
-  1. Enable [Passphrase encryption](#enable-passphrase-encryption) on your Trezor
+  1. Enable [Passphrase encryption](#enabling-passphrase-encryption) on your Trezor
   2. Choose a unique password you will only use for privacy sensitive transactions
   3. Only use this password when you are using your Trezor on Tails.
 
@@ -46,7 +46,7 @@ Usual "don't curl unsolicited shell scripts into a root shell" disclaimer applie
 torify curl -sL https://raw.githubusercontent.com/lwfitzgerald/trezor-on-tails/master/install-trezor.sh | sudo sh
 ```
 
-## Enable Passphrase encryption
+## Enabling Passphrase encryption
 ### myTREZOR
 ![myTREZOR passphrase encryption enabling](https://raw.githubusercontent.com/lwfitzgerald/trezor-on-tails/master/images/passphrase-mytrezor.png)
   1. Got to [myTrezor](https://mytrezor.com)
