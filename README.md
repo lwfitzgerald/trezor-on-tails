@@ -13,22 +13,6 @@ For this reason it is recommended to:
   2. Choose a unique password you will only use for privacy sensitive transactions
   3. Only use this password when you are using your Trezor on Tails.
 
-## Enable Passphrase encryption
-### myTREZOR
-![myTREZOR passphrase encryption enabling](https://raw.githubusercontent.com/lwfitzgerald/trezor-on-tails/master/images/passphrase-mytrezor.png)
-  1. Got to [myTrezor](https://mytrezor.com)
-  2. Click the name of your device and then switch to the "Advanced" tab
-  3. Tick the OK box and click "Enable passphrase encryption"
-  4. Disconnect and Reconnect your Trezor
-
-### Electrum
-![Electrum passphrase encryption enabling](https://raw.githubusercontent.com/lwfitzgerald/trezor-on-tails/master/images/passphrase-electrum.png)
-  1. Click the small Trezor icon in the Electrum status bar
-  2. Switch to the Advanced tab and click "Enable Passphrases"
-  3. Close Electrum
-  3. Disconnect and Reconnect your Trezor
-  4. Restart Electrum and create a new Electrum wallet
-
 ## Set up
   1. When Tails Greeter appears, choose "Yes" for more options.
   2. Set an Administration password
@@ -58,3 +42,19 @@ Usual "don't curl unsolicited shell scripts into a root shell" disclaimer applie
 ```
 torify curl -sL https://raw.githubusercontent.com/lwfitzgerald/trezor-on-tails/master/install-trezor.sh | sudo sh
 ```
+
+## Enable Passphrase encryption
+### myTREZOR
+![myTREZOR passphrase encryption enabling](https://raw.githubusercontent.com/lwfitzgerald/trezor-on-tails/master/images/passphrase-mytrezor.png)
+  1. Got to [myTrezor](https://mytrezor.com)
+  2. Click the name of your device and then switch to the "Advanced" tab
+  3. Tick the OK box and click "Enable passphrase encryption"
+  4. Disconnect and Reconnect your Trezor
+
+### Electrum
+![Electrum passphrase encryption enabling](https://raw.githubusercontent.com/lwfitzgerald/trezor-on-tails/master/images/passphrase-electrum.png)
+  1. Click the small Trezor icon in the Electrum status bar
+  2. Switch to the Advanced tab and click "Enable Passphrases"
+  3. Close Electrum
+  3. Disconnect and Reconnect your Trezor
+  4. Restart Electrum and create a new Electrum wallet
