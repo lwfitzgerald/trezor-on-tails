@@ -30,7 +30,6 @@ For this reason it is recommended to:
         '> /lib/udev/rules.d/51-trezor.rules'
     sudo chmod 644 /lib/udev/rules.d/51-trezor.rules
     ```
-
   4. Open Electrum
   5. Select "Create a new Wallet" and "Hardware wallet"
   6. Next choose "Use a device you have already set up" and "TREZOR wallet" as the type of hardware wallet
