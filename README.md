@@ -35,6 +35,7 @@ For this reason it is recommended to:
   5. Select "Create a new Wallet" and "Hardware wallet"
   6. Next choose "Use a device you have already set up" and "TREZOR wallet" as the type of hardware wallet
 
+![Duplicate devices in Electrum](https:/raw.githubusercontent.com/lwfitzgerald/trezor-on-tails/master/images/duplicates.png)
 With newer firmwares Electrum may show a duplicate device and will ask you to choose. It doesn't appear to matter which you pick.
 
 ## tl;dr give me a script to run
