@@ -58,7 +58,7 @@ torify curl -sL \
 ### Electrum
 ![Electrum passphrase encryption enabling](https://raw.githubusercontent.com/lwfitzgerald/trezor-on-tails/master/images/passphrase-electrum.png)
   1. Click the small Trezor icon in the Electrum status bar
-  2. Switch to the Advanced tab and click "Enable Passphrases"
+  2. Switch to the "Advanced" tab and click "Enable Passphrases"
   3. Close Electrum
   3. Disconnect and Reconnect your Trezor
   4. Restart Electrum and create a new Electrum wallet
