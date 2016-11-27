@@ -42,7 +42,9 @@ With newer firmwares Electrum may show a duplicate device and will ask you to ch
 ## tl;dr give me a script to run
 Usual "don't curl unsolicited shell scripts into a root shell" disclaimer applies.
 ```
-torify curl -sL https://raw.githubusercontent.com/lwfitzgerald/trezor-on-tails/master/install-trezor.sh | sudo sh
+torify curl -sL \
+    https://raw.githubusercontent.com/lwfitzgerald/trezor-on-tails/master/install-trezor.sh \
+    | sudo sh
 ```
 
 ## Enabling Passphrase encryption
