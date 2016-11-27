@@ -31,7 +31,7 @@ For this reason it is recommended to:
   5. Select "Create a new Wallet" and "Hardware wallet"
   6. Next choose "Use a device you have already set up" and "TREZOR wallet" as the type of hardware wallet
 
-With newer firmwares Tails seems to register a duplicate HID device causing Electrum asks you to choose. It doesn't appear to matter which you pick. 
+With newer firmwares Electrum may show a duplicate device and will ask you to choose. It doesn't appear to matter which you pick.
 
 ## tl;dr give me a script to run
 Usual "don't curl unsolicited shell scripts into a root shell" disclaimer applies.
