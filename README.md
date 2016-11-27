@@ -1,5 +1,7 @@
 # trezor-on-tails
-Installation guide for using your Trezor with Electrum on Tails
+Installation guide for using your Trezor with Electrum on Tails.
+
+Tested on Tails 2.7
 
 ## :warning: Privacy warning :warning:
 [myTREZOR](https://mytrezor.com) and [Electrum](https://electrum.org) are thin clients. This means that when you connect your Trezor they fetch the balances of your addresses by transmitting them to a remote server. As you cannot trust the logging behaviour of these remote servers:
