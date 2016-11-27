@@ -9,7 +9,7 @@ Tested on Tails 2.7
 **If you have used your Trezor outside of Tails, it is likely any generated addresses have been associated with your IP address**.
 
 For this reason it is recommended to:
-  1. Enable [Passphrase encryption](#Enable-Passphrase-encryption) on your Trezor
+  1. Enable [Passphrase encryption](#enable-passphrase-encryption) on your Trezor
   2. Choose a unique password you will only use for privacy sensitive transactions
   3. Only use this password when you are using your Trezor on Tails.
 
