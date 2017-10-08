@@ -4,7 +4,7 @@ Installation guide for using your Trezor with Electrum on Tails.
 Tested on Tails 2.7
 
 ## :star: UPDATE: Tails 3.0
-Tails 3.0 now includes Trezor support for Electrum as standard so the installation steps in this guide are no longer necessary and remains only for reference.
+Tails 3.0 now includes Trezor support for Electrum as standard so the installation steps in this guide are no longer necessary and remain only for reference.
 
 ## :warning: Privacy warning :warning:
 [myTREZOR](https://mytrezor.com) and [Electrum](https://electrum.org) are thin clients. This means that when you connect your Trezor they fetch the balances of your addresses by transmitting them to a remote server. As you cannot trust the logging behaviour of these remote servers:
